@@ -1,0 +1,43 @@
+body {
+    background-color: lightblue;
+}
+header {
+    text-align: center;
+}
+
+span.grande {
+    font-size: 50px;
+}
+
+span.azul {
+    color: blue;
+}
+
+a.activo:active {
+    color: red;
+    background-color: yellow;
+}
+
+p.p1::first-line {
+    color: red;
+}
+
+p.p2::first-line {
+    color: red;   
+}
+
+a.link:visited {
+    background-color: blue;
+    color: white;
+}
+a.link:link {
+    background-color: white;
+    color: blue;
+}
+img.foto {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    left: 1300px;
+    bottom: 330px;
+}
